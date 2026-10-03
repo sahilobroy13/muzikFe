@@ -5,7 +5,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Search from './pages/Search'
-import Playlists from './pages/Playlists'
+import Library from './pages/Library'
+// import { Library } from 'lucide-react'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path='/login' Component={Login}></Route>
         <Route path='/register' Component={Register}></Route>
         <Route path='/search' Component={Search}></Route>
-        <Route path='/playlist' Component={Playlists}></Route>
+        <Route path='/library' Component={Library}></Route>
       </Routes>
     </Router>
     </>
